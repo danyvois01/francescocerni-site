@@ -294,7 +294,7 @@
       inset:0;
       background:
         linear-gradient(rgba(255,255,255,.92), rgba(255,255,255,.92)),
-        url("./bg.dna.jpg");
+        url("assets/bg.dna.jpg");
       background-size: cover;
       background-position: center;
       pointer-events:none;
@@ -343,7 +343,7 @@
     }
 
     /* =========================
-      EXPERIENCE (logos in root)
+      EXPERIENCE
     ========================= */
     .timeline-row{
       display:flex;
@@ -529,7 +529,7 @@
     }
 
     /* =========================
-      EDUCATION (logos in root)
+      EDUCATION
     ========================= */
     .two-col{
       display:grid;
@@ -656,7 +656,7 @@
   <div id="top"></div>
 
   <!-- =========================
-    HERO (carousel uses hero-1.jpg hero-2.jpg hero-3.jpg in ROOT)
+    HERO
   ========================= -->
   <section class="hero-wrap">
     <div class="container">
@@ -694,7 +694,7 @@
             <img
               id="heroCarouselImg"
               class="hero-carousel-img"
-              src="./hero-1.jpg"
+              src="assets/hero-1.jpg"
               alt="Francesco Cerni photo"
             />
 
@@ -712,7 +712,7 @@
   </section>
 
   <!-- =========================
-    ABOUT (bg.dna.jpg in ROOT)
+    ABOUT
   ========================= -->
   <section class="section about-bg" id="about">
     <div class="container">
@@ -775,9 +775,7 @@
   </section>
 
   <!-- =========================
-    EXPERIENCE (logos in ROOT)
-    - logo-sanofi.png, fidia.png
-    - cnr.png (se non ce l’hai ancora: caricalo con questo nome o dimmelo e lo cambiamo)
+    EXPERIENCE
   ========================= -->
   <section class="section alt" id="experience">
     <div class="container">
@@ -790,17 +788,17 @@
         </button>
 
         <button class="time-item" data-target="exp-cnr" type="button">
-          <img class="time-logo" src="./cnr.png" alt="CNR logo">
+          <img class="time-logo" src="assets/cnr.png" alt="CNR logo">
           <span class="time-year">2023</span> CNR
         </button>
 
         <button class="time-item" data-target="exp-fidia" type="button">
-          <img class="time-logo" src="./fidia.png" alt="Fidia logo">
+          <img class="time-logo" src="assets/fidia.png" alt="Fidia logo">
           <span class="time-year">2023</span> Fidia
         </button>
 
         <button class="time-item" data-target="exp-sanofi" type="button">
-          <img class="time-logo" src="./logo-sanofi.png" alt="Sanofi logo">
+          <img class="time-logo" src="assets/logo-sanofi.png" alt="Sanofi logo">
           <span class="time-year">2024–25</span> Sanofi
         </button>
       </div>
@@ -824,7 +822,7 @@
         <div class="timeline-item" id="exp-cnr">
           <div class="role-top">
             <div class="role-left">
-              <img class="company-logo" src="./cnr.png" alt="CNR logo">
+              <img class="company-logo" src="assets/cnr.png" alt="CNR logo">
               <div>
                 <div class="role"><span class="company">CNR</span> — Research Experience</div>
                 <div class="meta">2023 · Italy</div>
@@ -840,7 +838,7 @@
         <div class="timeline-item" id="exp-fidia">
           <div class="role-top">
             <div class="role-left">
-              <img class="company-logo" src="./fidia.png" alt="Fidia logo">
+              <img class="company-logo" src="assets/fidia.png" alt="Fidia logo">
               <div>
                 <div class="role"><span class="company">Fidia Farmaceutici</span> — R&amp;D Internship</div>
                 <div class="meta">Aug 2023 · Italy</div>
@@ -856,7 +854,7 @@
         <div class="timeline-item" id="exp-sanofi">
           <div class="role-top">
             <div class="role-left">
-              <img class="company-logo" src="./logo-sanofi.png" alt="Sanofi logo">
+              <img class="company-logo" src="assets/logo-sanofi.png" alt="Sanofi logo">
               <div>
                 <div class="role"><span class="company">Sanofi</span> — Clinical Study Unit Intern (Strategy &amp; Innovation)</div>
                 <div class="meta">Sep 2024 – Aug 2025 · Milan</div>
@@ -874,7 +872,7 @@
   </section>
 
   <!-- =========================
-    PROJECTS (pandora.mp4 in ROOT)
+    PROJECTS
   ========================= -->
   <section class="section" id="projects">
     <div class="container">
@@ -884,7 +882,9 @@
       <div class="grid">
         <article class="project">
           <div class="project-media">
-            <video src="./pandora.mp4" controls preload="metadata"></video>
+            <video controls preload="metadata">
+              <source src="assets/pandora.mp4" type="video/mp4" />
+            </video>
           </div>
           <div class="project-body">
             <div class="project-title">Pandora Project</div>
@@ -900,7 +900,7 @@
 
         <article class="project">
           <div class="project-media">
-            <img src="./hero-3.jpg" alt="Stunnatell podcast">
+            <img src="assets/hero-3.jpg" alt="Stunnatell podcast">
           </div>
           <div class="project-body">
             <div class="project-title">Stunnatell Podcast</div>
@@ -916,7 +916,7 @@
 
         <article class="project">
           <div class="project-media">
-            <img src="./hero-2.jpg" alt="Startup challenge finalist">
+            <img src="assets/hero-2.jpg" alt="Startup challenge finalist">
           </div>
           <div class="project-body">
             <div class="project-title">Finalist — Startup Challenge</div>
@@ -932,7 +932,7 @@
 
         <article class="project">
           <div class="project-media">
-            <img src="./hero-1.jpg" alt="AI startup regulations assistant">
+            <img src="assets/hero-1.jpg" alt="AI startup regulations assistant">
           </div>
           <div class="project-body">
             <div class="project-title">AI Startup Location Assistant</div>
@@ -950,8 +950,7 @@
   </section>
 
   <!-- =========================
-    EDUCATION (logos in ROOT)
-    imperial.png, IQS.png, Unimi.png, Udl.png
+    EDUCATION
   ========================= -->
   <section class="section alt" id="education">
     <div class="container">
@@ -963,7 +962,7 @@
           <div class="kicker" style="margin-bottom:.4rem;">Education</div>
 
           <div class="edu-item">
-            <img class="edu-logo" src="./imperial.png" alt="Imperial College London logo">
+            <img class="edu-logo" src="assets/imperial.png" alt="Imperial College London logo">
             <div>
               <div class="edu-title">MSc Visiting — Bioengineering (Imperial College London)</div>
               <div class="edu-meta">Sep 2025 – Feb 2026</div>
@@ -971,7 +970,7 @@
           </div>
 
           <div class="edu-item">
-            <img class="edu-logo" src="./IQS.png" alt="IQS logo">
+            <img class="edu-logo" src="assets/IQS.png" alt="IQS logo">
             <div>
               <div class="edu-title">Dual MSc — Bioengineering &amp; Pharmaceutical Business (IQS)</div>
               <div class="edu-meta">2023 – 2025</div>
@@ -979,7 +978,7 @@
           </div>
 
           <div class="edu-item">
-            <img class="edu-logo" src="./Unimi.png" alt="University of Milan logo">
+            <img class="edu-logo" src="assets/Unimi.png" alt="University of Milan logo">
             <div>
               <div class="edu-title">BSc — Medical Biotechnology (University of Milan)</div>
               <div class="edu-meta">2020 – 2023</div>
@@ -987,7 +986,7 @@
           </div>
 
           <div class="edu-item">
-            <img class="edu-logo" src="./Udl.png" alt="Universitat de Lleida logo">
+            <img class="edu-logo" src="assets/Udl.png" alt="Universitat de Lleida logo">
             <div>
               <div class="edu-title">Erasmus — Universitat de Lleida</div>
               <div class="edu-meta">During BSc (University of Milan)</div>
@@ -1073,7 +1072,7 @@
       });
     }
 
-    /* 2) HERO CAROUSEL (root files) */
+    /* 2) HERO CAROUSEL */
     (function () {
       const img = document.getElementById("heroCarouselImg");
       const caption = document.getElementById("heroCarouselCaption");
@@ -1082,9 +1081,9 @@
       if (!img || !caption || !next || !prev) return;
 
       const slides = [
-        { src: "./hero-1.jpg", text: "Healthcare, startups, and building energy — one step at a time." },
-        { src: "./hero-2.jpg", text: "On the move — curiosity, discipline, and a growth mindset." },
-        { src: "./hero-3.jpg", text: "Creating & sharing — entrepreneurship, innovation, and conversations." }
+        { src: "assets/hero-1.jpg", text: "Healthcare, startups, and building energy — one step at a time." },
+        { src: "assets/hero-2.jpg", text: "On the move — curiosity, discipline, and a growth mindset." },
+        { src: "assets/hero-3.jpg", text: "Creating & sharing — entrepreneurship, innovation, and conversations." }
       ];
 
       let i = 0;
